@@ -1,4 +1,4 @@
-# worldgenera
+#   The Summit
 
 World Module for terasology it includes some pyramids on snowy world
 
