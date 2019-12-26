@@ -1,6 +1,6 @@
 #   The Summit
 
-World Module for terasology it includes some pyramids on snowy world
+World Module for terasology it includes height variations with steep mountains on snowy world
 
 ![alt text](https://github.com/ujjman/worldgenera/blob/master/images/Capture.PNG)
 
