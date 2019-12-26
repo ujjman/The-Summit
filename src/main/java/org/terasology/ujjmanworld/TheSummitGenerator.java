@@ -23,13 +23,12 @@ import org.terasology.world.generation.WorldBuilder;
 import org.terasology.world.generator.RegisterWorldGenerator;
 import org.terasology.world.generator.plugin.WorldGeneratorPluginLibrary;
 
-
-@RegisterWorldGenerator(id = "tutorialWorld", displayName = "Tutorial World")
-public class TutorialWorldGenerator extends BaseFacetedWorldGenerator {
+@RegisterWorldGenerator(id = "TheSummitGenerator", displayName = "The Summit")
+public class TheSummitGenerator extends BaseFacetedWorldGenerator {
     @In
     private WorldGeneratorPluginLibrary worldGeneratorPluginLibrary;
 
-    public TutorialWorldGenerator(SimpleUri uri) {
+    public TheSummitGenerator(SimpleUri uri) {
         super(uri);
     }
 
@@ -38,8 +37,6 @@ public class TutorialWorldGenerator extends BaseFacetedWorldGenerator {
         return new WorldBuilder(worldGeneratorPluginLibrary)
                 .addProvider(new SurfaceProvider())
                 .addProvider(new SeaLevelProvider(0))
-                .addProvider(new PyramidProvider())
-                .addRasterizer(new TutorialWorldRasterizer())
-                .addRasterizer(new PyramidRasterizer());
+                .addRasterizer(new TheSummitRasterizer());
     }
 }

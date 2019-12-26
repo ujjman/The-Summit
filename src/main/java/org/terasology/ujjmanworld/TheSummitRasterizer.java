@@ -25,7 +25,7 @@ import org.terasology.world.chunks.CoreChunk;
 import org.terasology.world.generation.Region;
 import org.terasology.world.generation.WorldRasterizer;
 
-public class TutorialWorldRasterizer implements WorldRasterizer {
+public class TheSummitRasterizer implements WorldRasterizer {
     private Block snow;
 
     @Override
